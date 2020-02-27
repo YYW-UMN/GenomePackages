@@ -2,8 +2,8 @@ Package: BSgenome.M.bovis.NC002945.4
 Title: Mycobacterium bovis AF2122/97 genome assembly
 Description: Genome assembly for the chromosome of Mycobacterium bovis AF2122/97 NC_002945.4 provided by NCBI
 Version: 1.0.0
-Author: The Bioconductor Dev Team
-Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
+Author: Yuanyuan Wang
+Maintainer: Yuanyuan Wang <wang1927@umn.edu>
 Depends: BSgenome (>= 1.50.0)
 Imports: BSgenome
 Suggests: 
