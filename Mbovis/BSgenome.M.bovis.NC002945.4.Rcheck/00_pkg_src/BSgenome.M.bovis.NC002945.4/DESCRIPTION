@@ -1,0 +1,20 @@
+Package: BSgenome.M.bovis.NC002945.4
+Title: Mycobacterium bovis AF2122/97 genome assembly
+Description: Genome assembly for the chromosome of Mycobacterium bovis AF2122/97 NC_002945.4 provided by NCBI
+Version: 1.0.0
+Author: The Bioconductor Dev Team
+Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
+Depends: BSgenome (>= 1.50.0)
+Imports: BSgenome
+Suggests:
+License: Artistic-2.0
+organism: Mycobacterium tuberculosis variant bovis AF2122/97
+common_name: M. bovis
+provider: NCBI
+provider_version: NC_002945.4
+release_date: 2017-04-25
+release_name: NC_002945.4
+source_url: https://www.ncbi.nlm.nih.gov/nuccore/NC_002945
+biocViews: AnnotationData, Genetics, BSgenome, M_bovis_AF2122_97
+NeedsCompilation: no
+Packaged: 2020-02-16 21:50:43 UTC; yuanyuanwang

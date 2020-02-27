@@ -1,0 +1,97 @@
+\nonstopmode{}
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8,latin1]{inputenc}
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `BSgenome.M.bovis.NC002945.4'}}
+\par\bigskip{\large \today}
+\end{center}
+\begin{description}
+\raggedright{}
+\item[Title]\AsIs{Mycobacterium bovis AF2122/97 genome assembly}
+\item[Description]\AsIs{Genome assembly for the chromosome of Mycobacterium bovis AF2122/97 NC\_002945.4 provided by NCBI}
+\item[Version]\AsIs{1.0.0}
+\item[Author]\AsIs{The Bioconductor Dev Team}
+\item[Maintainer]\AsIs{Bioconductor Package Maintainer }\email{maintainer@bioconductor.org}\AsIs{}
+\item[Depends]\AsIs{BSgenome (>= 1.50.0)}
+\item[Imports]\AsIs{BSgenome}
+\item[Suggests]\AsIs{}
+\item[License]\AsIs{Artistic-2.0}
+\item[organism]\AsIs{Mycobacterium tuberculosis variant bovis AF2122/97}
+\item[common\_name]\AsIs{M. bovis}
+\item[provider]\AsIs{NCBI}
+\item[provider\_version]\AsIs{NC\_002945.4}
+\item[release\_date]\AsIs{2017-04-25}
+\item[release\_name]\AsIs{NC\_002945.4}
+\item[source\_url]\AsIs{https://www.ncbi.nlm.nih.gov/nuccore/NC\_002945}
+\item[biocViews]\AsIs{AnnotationData, Genetics, BSgenome, M\_bovis\_AF2122\_97}
+\item[NeedsCompilation]\AsIs{no}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{BSgenome.M.bovis.NC002945.4}{Mycobacterium bovis AF2122/97 genome assembly}{BSgenome.M.bovis.NC002945.4}
+\aliasA{BSgenome.M.bovis.NC002945.4-package}{BSgenome.M.bovis.NC002945.4}{BSgenome.M.bovis.NC002945.4.Rdash.package}
+\aliasA{M\_bovis\_AF2122\_97}{BSgenome.M.bovis.NC002945.4}{M.Rul.bovis.Rul.AF2122.Rul.97}
+\keyword{package}{BSgenome.M.bovis.NC002945.4}
+\keyword{data}{BSgenome.M.bovis.NC002945.4}
+%
+\begin{Description}\relax
+Genome assembly for the chromosome of Mycobacterium bovis AF2122/97 NC\_002945.4 provided by NCBI
+\end{Description}
+%
+\begin{Note}\relax
+This BSgenome data package was made from the following source data files:
+\begin{alltt}
+-- information not available --
+  \end{alltt}
+
+
+See \code{?\LinkA{BSgenomeForge}{BSgenomeForge}} and the BSgenomeForge
+vignette (\code{vignette("BSgenomeForge")}) in the \pkg{BSgenome}
+software package for how to make a BSgenome data package.
+\end{Note}
+%
+\begin{Author}\relax
+The Bioconductor Dev Team
+\end{Author}
+%
+\begin{SeeAlso}\relax
+\begin{itemize}
+
+\item \LinkA{BSgenome}{BSgenome} objects and the
+\code{\LinkA{available.genomes}{available.genomes}} function
+in the \pkg{BSgenome} software package.
+\item \LinkA{DNAString}{DNAString} objects in the \pkg{Biostrings}
+package.
+\item The BSgenomeForge vignette (\code{vignette("BSgenomeForge")})
+in the \pkg{BSgenome} software package for how to make a BSgenome
+data package.
+
+\end{itemize}
+
+\end{SeeAlso}
+%
+\begin{Examples}
+\begin{ExampleCode}
+BSgenome.M.bovis.NC002945.4
+genome <- BSgenome.M.bovis.NC002945.4
+head(seqlengths(genome))
+
+
+## ---------------------------------------------------------------------
+## Genome-wide motif searching
+## ---------------------------------------------------------------------
+## See the GenomeSearching vignette in the BSgenome software
+## package for some examples of genome-wide motif searching using
+## Biostrings and the BSgenome data packages:
+if (interactive())
+    vignette("GenomeSearching", package="BSgenome")
+\end{ExampleCode}
+\end{Examples}
+\printindex{}
+\end{document}

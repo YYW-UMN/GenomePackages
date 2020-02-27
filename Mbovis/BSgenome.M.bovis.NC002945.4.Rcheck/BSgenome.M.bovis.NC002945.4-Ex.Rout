@@ -1,0 +1,131 @@
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "BSgenome.M.bovis.NC002945.4"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> library('BSgenome.M.bovis.NC002945.4')
+Loading required package: BSgenome
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, append,
+    as.data.frame, basename, cbind, colMeans, colSums, colnames,
+    dirname, do.call, duplicated, eval, evalq, get, grep, grepl,
+    intersect, is.unsorted, lapply, lengths, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, rank, rbind,
+    rowMeans, rowSums, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:base’:
+
+    expand.grid
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomicRanges
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: rtracklayer
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("package")
+> ### * package
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: BSgenome.M.bovis.NC002945.4
+> ### Title: Mycobacterium bovis AF2122/97 genome assembly
+> ### Aliases: BSgenome.M.bovis.NC002945.4-package
+> ###   BSgenome.M.bovis.NC002945.4 M_bovis_AF2122_97
+> ### Keywords: package data
+> 
+> ### ** Examples
+> 
+> BSgenome.M.bovis.NC002945.4
+M. bovis genome:
+# organism: Mycobacterium tuberculosis variant bovis AF2122/97 (M. bovis)
+# provider: NCBI
+# provider version: NC_002945.4
+# release date: 2017-04-25
+# release name: NC_002945.4
+# 1 sequences:
+#   NC_002945.4                                                            
+# (use 'seqnames()' to see all the sequence names, use the '$' or '[[' operator
+# to access a given sequence)
+> genome <- BSgenome.M.bovis.NC002945.4
+> head(seqlengths(genome))
+NC_002945.4 
+    4349904 
+> 
+> 
+> ## ---------------------------------------------------------------------
+> ## Genome-wide motif searching
+> ## ---------------------------------------------------------------------
+> ## See the GenomeSearching vignette in the BSgenome software
+> ## package for some examples of genome-wide motif searching using
+> ## Biostrings and the BSgenome data packages:
+> if (interactive())
++     vignette("GenomeSearching", package="BSgenome")
+> 
+> 
+> 
+> ### * <FOOTER>
+> ###
+> cleanEx()
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  4.144 0.201 4.376 0.001 0.001 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')
