@@ -1,0 +1,15 @@
+Package: BSgenome.MapK10.SRA.SRR060191.3
+Title: Full genome sequence for Mycobacterium avium subsp. paratuberculosis str. k10 (updated in 2010)
+Description: Improved annotation and revised full genome sequence of Mycobacterium avium subsp. paratuberculosis str. k10 provided by SRA
+Version: 1.0.0
+organism: Mycobacterium avium subsp. paratuberculosis str. k10
+common_name: M. avium subsp. paratuberculosis (Map)
+provider: SRA
+provider_version: SRR060191.3
+release_date: 2010/09
+release_name: SRR060191
+source_url: https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos/sra-pub-run-1/SRR060191/SRR060191.3
+organism_biocview: Map_k10
+BSgenomeObjname: MapK10
+seqnames: c("Map_K10_VBC_CLI")
+seqs_srcdir: /Users/yuanyuanwang/Desktop/genomepackage/seqs_srcdir

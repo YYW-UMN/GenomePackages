@@ -1,0 +1,9 @@
+import(BSgenome)
+
+### Don't export BSgenome.MapK10.SRA.SRR060191.3 or MapK10 (the new and old names of the
+### BSgenome object defined in this package): the object is created and its 2
+### names are dynamically exported at load time (refer to R/zzz.R for the
+### details).
+#export(BSgenome.MapK10.SRA.SRR060191.3)
+#export(MapK10)
+

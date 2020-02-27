@@ -1,0 +1,13 @@
+Version: 1.0.0
+Date: 2019-09-12
+Title: Full genome sequence for Mycobacterium avium subsp. paratuberculosis str. k10 (updated in 2010)
+Authors@R: c(person("Yuanyuan", "Wang", role = c("aut", "cre"),
+                     email = "wang1927@umn.edu"))
+Author: Yuanyuan Wang [aut, cre],
+Maintainer: Yuanyuan Wang <wang1927@umn.edu>
+Depends: R (>= 3.5.1), Biostrings, BSgenome 
+Description: Improved annotation and revised full genome sequence of Mycobacterium avium subsp. paratuberculosis str. k10 published by James W. Wynne, Torsten Seemann, Dieter M. Bulach, Scott A. Coutts, Adel M. Talaat, Wojtek P. Michalski in the Journal of Bacteriology, Nov 2010, 192 (23) 6319-6320; DOI: 10.1128/JB.00972-10. The genome is accessible via SRR060191 in the NCBI Sequence Read Archive (SRA). This updated sequence will serve as a reference genome for data anlaysis of Mycobacterium avium subsp. paratuberculosis in R.   
+License: GPL (>= 2)
+URL: https://www.r-project.org
+
+

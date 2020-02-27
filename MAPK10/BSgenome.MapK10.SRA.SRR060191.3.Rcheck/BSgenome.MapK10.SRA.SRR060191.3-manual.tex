@@ -1,0 +1,97 @@
+\nonstopmode{}
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8,latin1]{inputenc}
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `BSgenome.MapK10.SRA.SRR060191.3'}}
+\par\bigskip{\large \today}
+\end{center}
+\begin{description}
+\raggedright{}
+\item[Title]\AsIs{Full genome sequence for Mycobacterium avium subsp.
+paratuberculosis str. k10 (updated in 2010)}
+\item[Description]\AsIs{Improved annotation and revised full genome sequence of Mycobacterium avium subsp. paratuberculosis str. k10 provided by SRA}
+\item[Version]\AsIs{1.0.0}
+\item[Author]\AsIs{The Bioconductor Dev Team}
+\item[Maintainer]\AsIs{Bioconductor Package Maintainer }\email{maintainer@bioconductor.org}\AsIs{}
+\item[Depends]\AsIs{BSgenome (>= 1.50.0)}
+\item[Imports]\AsIs{BSgenome}
+\item[Suggests]\AsIs{}
+\item[License]\AsIs{Artistic-2.0}
+\item[organism]\AsIs{Mycobacterium avium subsp. paratuberculosis str. k10}
+\item[common\_name]\AsIs{M. avium subsp. paratuberculosis (Map)}
+\item[provider]\AsIs{SRA}
+\item[provider\_version]\AsIs{SRR060191.3}
+\item[release\_date]\AsIs{2010/09}
+\item[release\_name]\AsIs{SRR060191}
+\item[source\_url]\AsIs{https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos/sra-pub-run-1/SRR060191/SRR060191.3}
+\item[biocViews]\AsIs{AnnotationData, Genetics, BSgenome, Map\_k10}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{BSgenome.MapK10.SRA.SRR060191.3}{Full genome sequence for Mycobacterium avium subsp. paratuberculosis str. k10 (updated in 2010)}{BSgenome.MapK10.SRA.SRR060191.3}
+\aliasA{BSgenome.MapK10.SRA.SRR060191.3-package}{BSgenome.MapK10.SRA.SRR060191.3}{BSgenome.MapK10.SRA.SRR060191.3.Rdash.package}
+\aliasA{MapK10}{BSgenome.MapK10.SRA.SRR060191.3}{MapK10}
+\keyword{package}{BSgenome.MapK10.SRA.SRR060191.3}
+\keyword{data}{BSgenome.MapK10.SRA.SRR060191.3}
+%
+\begin{Description}\relax
+Improved annotation and revised full genome sequence of Mycobacterium avium subsp. paratuberculosis str. k10 provided by SRA
+\end{Description}
+%
+\begin{Note}\relax
+This BSgenome data package was made from the following source data files:
+\begin{alltt}
+-- information not available --
+  \end{alltt}
+
+
+See \code{?\LinkA{BSgenomeForge}{BSgenomeForge}} and the BSgenomeForge
+vignette (\code{vignette("BSgenomeForge")}) in the \pkg{BSgenome}
+software package for how to make a BSgenome data package.
+\end{Note}
+%
+\begin{Author}\relax
+The Bioconductor Dev Team
+\end{Author}
+%
+\begin{SeeAlso}\relax
+\begin{itemize}
+
+\item \LinkA{BSgenome}{BSgenome} objects and the
+\code{\LinkA{available.genomes}{available.genomes}} function
+in the \pkg{BSgenome} software package.
+\item \LinkA{DNAString}{DNAString} objects in the \pkg{Biostrings}
+package.
+\item The BSgenomeForge vignette (\code{vignette("BSgenomeForge")})
+in the \pkg{BSgenome} software package for how to make a BSgenome
+data package.
+
+\end{itemize}
+
+\end{SeeAlso}
+%
+\begin{Examples}
+\begin{ExampleCode}
+BSgenome.MapK10.SRA.SRR060191.3
+genome <- BSgenome.MapK10.SRA.SRR060191.3
+head(seqlengths(genome))
+
+
+## ---------------------------------------------------------------------
+## Genome-wide motif searching
+## ---------------------------------------------------------------------
+## See the GenomeSearching vignette in the BSgenome software
+## package for some examples of genome-wide motif searching using
+## Biostrings and the BSgenome data packages:
+if (interactive())
+    vignette("GenomeSearching", package="BSgenome")
+\end{ExampleCode}
+\end{Examples}
+\printindex{}
+\end{document}
